@@ -1,0 +1,31 @@
+{
+  "name": "modulonpm",
+  "version": "0.1.0",
+  "description": "traductor de idioma andres",
+  "main": "dist/src/modulonpm.js",
+  "scripts": {
+    "build": "babel src/modulonpm.js -d dist",
+    "test":"mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvbarbosa/modulonpm.git"
+  },
+  "keywords": [
+    "prueba",
+    "platzi",
+    "fundamentos",
+    "javascript"
+  ],
+  "author": "Andres Barbosa <ing.abarbosa@gmail.com> (https://twitter.com/AndresBarbsa)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvbarbosa/modulonpm/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
